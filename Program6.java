@@ -7,6 +7,7 @@ public class Program6 {
         Scanner sc = new Scanner(System.in);
         System.out.print("\nEnter the number: ");
         int n = sc.nextInt();
+
         
         // Using if only
 
