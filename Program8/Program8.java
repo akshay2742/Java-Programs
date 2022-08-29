@@ -37,5 +37,7 @@ public class Program8 {
             default:
                 System.out.println("Invalid Input");
         }
+
+        sc.close();
     }
 }

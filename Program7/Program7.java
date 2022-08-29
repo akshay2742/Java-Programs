@@ -12,5 +12,7 @@ public class Program7 {
             System.out.print("Number is even!");
         else    
             System.out.print("Number is odd!");
+        
+        sc.close();
     }
 }

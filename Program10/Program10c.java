@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Program13{
+public class Program10c{
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
 
@@ -18,7 +18,7 @@ public class Program13{
             }
             System.out.println();
         }
-
+        sc.close();
         
     }
 }

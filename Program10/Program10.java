@@ -17,5 +17,7 @@ public class Program10 {
             System.out.println();
         }
 
+        sc.close();
+
     }
 }

@@ -18,5 +18,7 @@ public class Program9 {
         }
 
         System.out.println(result);
+
+        sc.close();
     }
 }

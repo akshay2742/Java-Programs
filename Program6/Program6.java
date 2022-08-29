@@ -28,6 +28,8 @@ public class Program6 {
             System.out.println("\n\nNumber is Positive");
         else
             System.out.println("\n\nNumber is Negative");
+
+        sc.close();
     }
     
 }

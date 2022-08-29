@@ -7,5 +7,6 @@ public class Program4{
         int radius = sc.nextInt();
 
         System.out.print("Area of the circle is: "+(3.14*radius*radius));
+        sc.close();
     }
 }

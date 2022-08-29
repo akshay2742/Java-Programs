@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Program12 {
+public class Program10a{
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
@@ -22,22 +22,9 @@ public class Program12 {
             }
 
             System.out.println();
+            
         }
+        sc.close();
 
-        for(int i = n; i >= 1;i--)
-        {
-            //Spaces
-            for(int j = 1; j <= n-i;j++)
-            {
-                System.out.print(" ");
-            }
-
-            for(int j = 1; j <= i;j++)
-            {
-                System.out.print("* ");
-            }
-
-            System.out.println();
-        }
     }
 }
