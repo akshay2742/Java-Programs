@@ -1,11 +1,11 @@
 package Program24;
 class Demo{
-    private void sum(int x)
+    private static void sum(int x)
     {
         System.out.println(x);
     }
 
-    private void sum(int x,int y)
+    private static void sum(int x,int y)
     {
         System.out.println(x+y);
     }

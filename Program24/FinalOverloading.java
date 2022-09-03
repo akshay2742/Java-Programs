@@ -1,11 +1,11 @@
 package Program24;
 class Demo{
-    final void sum(int x)
+    final static void sum(int x)
     {
         System.out.println("Sum: "+x);
     }
 
-    final void sum(int x, int y)
+    final static void sum(int x, int y)
     {
         System.out.println("Sum: "+(x+y));
     }
@@ -14,8 +14,7 @@ class Demo{
 public class FinalOverloading {
     public static void main(String args[])
     {
-        Demo d1 = new Demo();
-        d1.sum(4);
-        d1.sum(4,5);
+        Demo.sum(4);
+        Demo.sum(4,5);
     }
 }
